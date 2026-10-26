@@ -1,1 +1,2 @@
-# FYP-2026 Backend repo
+# FYP-Backend
+backend is based on django, drf.

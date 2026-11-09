@@ -1,14 +1,21 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
 # C extensions
 *.so
 
-# Distribution / packaging
+# Django Local Configurations & Sensitive Data
 .env
+db.sqlite3
+*.log
+
+# Distribution / packaging
 .Python
 env/
+venv/
+.venv/
 build/
 develop-eggs/
 dist/
@@ -27,28 +34,28 @@ var/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Pycharm project files
+# Editor / IDE project files
 .idea/
+.vscode/
 
 # PyTest cache
 .pytest_cache/
 
 # Coverage
 .coverage
+htmlcov/
 coverage.xml
+*.lcov
 
 # Tox
 .tox/
 .cache/
 .python-version
 
-# VirtualEnv
-.venv/
-
-# Developers
+# System Files
 *.sw*
-manage.py
 .DS_Store
+Thumbs.db
 
-# example database
+# Databases & Example Data
 drf_example
